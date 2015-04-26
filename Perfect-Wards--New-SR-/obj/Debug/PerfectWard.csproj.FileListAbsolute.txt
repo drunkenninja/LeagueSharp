@@ -1,0 +1,11 @@
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\Updated-by-DrunkenNinja-and-DanZ(PerfectWard).exe.config
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\Updated-by-DrunkenNinja-and-DanZ(PerfectWard).exe
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\Updated-by-DrunkenNinja-and-DanZ(PerfectWard).pdb
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\LeagueSharp.Common.dll
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\LeagueSharp.dll
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\SharpDX.dll
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\clipper_library.dll
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\bin\Debug\LeagueSharp.xml
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\obj\Debug\Updated-by-DrunkenNinja-and-DanZ(PerfectWard).exe
+C:\Users\Dan\Documents\Visual Studio 2012\Projects\Perfect-Wards--New-SR-\obj\Debug\Updated-by-DrunkenNinja-and-DanZ(PerfectWard).pdb
