@@ -16,7 +16,7 @@ namespace Trinket_Cooldown_Tracker
 
     private static Menu Config;
 
-    public static Items.Item Trinket = new Items.Item(3340, 3361, 600f);
+    public static Items.Item Trinket = new Items.Item(3340, 600f);
 
     public static Obj_AI_Hero Player
     {
