@@ -149,4 +149,4 @@ namespace Trinket_Cooldown_Tracker
       }
     }
   }
-}
+}}
