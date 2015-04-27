@@ -16,7 +16,19 @@ namespace Trinket_Cooldown_Tracker
 
     private static Menu Config;
 
-    public static Items.Item Trinket = new Items.Item(3340, 600f);
+    public static Items.Item Warding Totem = new Items.Item(3340, 600f);
+    
+    public static Items.Item Greater Stealth Totem = new Items.Item(3361, 600f);
+    
+    public static Items.Item Greater Vision Totem = new Items.Item(3362, 600f);
+    
+    public static Items.Item Sweeping Lens = new Items.Item(3341, 600f);
+    
+    public static Items.Item Oracles Lens = new Items.Item(3364, 600f);
+    
+    public static Items.Item Scrying Orb = new Items.Item(3342, 600f);
+    
+    public static Items.Item Farsight Orb = new Items.Item(3363, 600f);
 
     public static Obj_AI_Hero Player
     {
