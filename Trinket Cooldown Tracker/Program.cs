@@ -13,7 +13,6 @@ namespace Trinket_Cooldown_Tracker
 {
   class Program
   {
-
     private static Menu Config;
 
     public static Items.Item Warding_Totem = new Items.Item(3340, 600f);
@@ -42,7 +41,7 @@ namespace Trinket_Cooldown_Tracker
       CustomEvents.Game.OnGameLoad += OnGameLoad;
       Drawing.OnDraw += OnDraw;
     }
-
+    
     private static void OnGameLoad(EventArgs args)
     {
       Game.PrintChat("Trinket Tracker by DanZ and Drunkenninja loaded");
@@ -52,9 +51,7 @@ namespace Trinket_Cooldown_Tracker
 
       Config.AddToMainMenu();
       Game.OnUpdate += OnGameUpdate;
-
     }
-
 
     private static void OnDraw(EventArgs args)
     {
@@ -76,17 +73,20 @@ namespace Trinket_Cooldown_Tracker
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
           }
+      {    
           if (Greater_Stealth_Totem.IsOwned())
           {
-          if (Greater_Stealth_Totem.IsReady())
-          {
+            if (Greater_Stealth_Totem.IsReady())
+            {
 
             Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
           }
           else
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
-            if (Greater_Vision_Totem.IsOwned())
+          }
+      {  
+          if (Greater_Vision_Totem.IsOwned())
           {
           if (Greater_Vision_Totem.IsReady())
           {
@@ -97,6 +97,7 @@ namespace Trinket_Cooldown_Tracker
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
           }
+      {   
           if (Sweeping_Lens.IsOwned())
           {
           if (Sweeping_Lens.IsReady())
@@ -107,7 +108,9 @@ namespace Trinket_Cooldown_Tracker
           else
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
-             if (Oracles_Lens.IsOwned())
+          }
+      {  
+          if (Oracles_Lens.IsOwned())
           {
           if (Oracles_Lens.IsReady())
           {
@@ -117,7 +120,9 @@ namespace Trinket_Cooldown_Tracker
           else
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
-            if (Scrying_Orb.IsOwned())
+          }
+      {  
+          if (Scrying_Orb.IsOwned())
           {
           if (Scrying_Orb.IsReady())
           {
@@ -128,6 +133,7 @@ namespace Trinket_Cooldown_Tracker
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
           }
+      {
           if (Farsight_Orb.IsOwned())
           {
           if (Farsight_Orb.IsReady())
