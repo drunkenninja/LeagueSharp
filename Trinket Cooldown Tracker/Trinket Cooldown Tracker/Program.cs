@@ -13,12 +13,10 @@ namespace Trinket_Cooldown_Tracker
 {
   class Program
   {
-    
+
     private static Menu Config;
 
-    public static Items.Item Trinket1 = new Items.Item(3340, 600f);
-
-    public static Items.Item UpgradedTrinket = new Items.Item(3361, 600f);
+    public static Items.Item Trinket = new Items.Item(3340, 600f);
 
     public static Obj_AI_Hero Player
     {
@@ -55,25 +53,12 @@ namespace Trinket_Cooldown_Tracker
 
       if (Config.Item("On").GetValue<bool>())
       {
-        if (Trinket1.IsOwned())
+        if (Trinket.IsOwned())
         {
-          if (Trinket1.IsReady())
+          if (Trinket.IsReady())
           {
 
             Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
-          }
-          else
-          {
-            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
-
-          }
-        }
-        if (UpgradedTrinket.IsOwned())
-        {
-          if (UpgradedTrinket.IsReady())
-          {
-
-            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
           }
           else
           {
