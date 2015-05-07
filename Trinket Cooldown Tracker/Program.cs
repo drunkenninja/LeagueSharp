@@ -13,13 +13,22 @@ namespace Trinket_Cooldown_Tracker
 {
   class Program
   {
-    
     private static Menu Config;
 
-    public static Items.Item Trinket1 = new Items.Item(3340, 600f);
-
-    public static Items.Item UpgradedTrinket = new Items.Item(3361, 600f);
-
+    public static Items.Item Warding_Totem = new Items.Item(3340, 600f);
+    
+    public static Items.Item Greater_Stealth_Totem = new Items.Item(3361, 600f);
+    
+    public static Items.Item Greater_Vision_Totem = new Items.Item(3362, 600f);
+    
+    public static Items.Item Sweeping_Lens = new Items.Item(3341, 600f);
+    
+    public static Items.Item Oracles_Lens = new Items.Item(3364, 600f);
+    
+    public static Items.Item Scrying_Orb = new Items.Item(3342, 600f);
+    
+    public static Items.Item Farsight_Orb = new Items.Item(3363, 600f);
+    
     public static Obj_AI_Hero Player
     {
       get
@@ -32,7 +41,7 @@ namespace Trinket_Cooldown_Tracker
       CustomEvents.Game.OnGameLoad += OnGameLoad;
       Drawing.OnDraw += OnDraw;
     }
-
+    
     private static void OnGameLoad(EventArgs args)
     {
       Game.PrintChat("Trinket Tracker by DanZ and Drunkenninja loaded");
@@ -42,9 +51,7 @@ namespace Trinket_Cooldown_Tracker
 
       Config.AddToMainMenu();
       Game.OnUpdate += OnGameUpdate;
-
     }
-
 
     private static void OnDraw(EventArgs args)
     {
@@ -55,9 +62,9 @@ namespace Trinket_Cooldown_Tracker
 
       if (Config.Item("On").GetValue<bool>())
       {
-        if (Trinket1.IsOwned())
+        if (Warding_Totem.IsOwned())
         {
-          if (Trinket1.IsReady())
+          if (Warding_Totem.IsReady())
           {
 
             Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
@@ -65,20 +72,90 @@ namespace Trinket_Cooldown_Tracker
           else
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
-
           }
         }
-        if (UpgradedTrinket.IsOwned())
+      }  
+      {    
+        if (Greater_Stealth_Totem.IsOwned())
         {
-          if (UpgradedTrinket.IsReady())
+          if (Greater_Stealth_Totem.IsReady())
           {
 
-            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
+            Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
           }
           else
           {
             Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
+          }
+        }
+      }  
+      {  
+        if (Greater_Vision_Totem.IsOwned())
+        {
+          if (Greater_Vision_Totem.IsReady())
+          {
 
+            Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
+          }
+          else
+          {
+            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
+          }
+        }
+      }  
+      {   
+        if (Sweeping_Lens.IsOwned())
+        {
+          if (Sweeping_Lens.IsReady())
+          {
+
+            Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
+          }
+          else
+          {
+            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
+          }
+        }
+      }  
+      {  
+        if (Oracles_Lens.IsOwned())
+        {
+          if (Oracles_Lens.IsReady())
+          {
+
+            Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
+          }
+          else
+          {
+            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
+          }
+        }
+      }  
+      {  
+        if (Scrying_Orb.IsOwned())
+        {
+          if (Scrying_Orb.IsReady())
+          {
+
+            Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
+          }
+          else
+          {
+            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
+          }
+        }
+      }  
+      {
+        if (Farsight_Orb.IsOwned())
+        {
+          if (Farsight_Orb.IsReady())
+          {
+
+            Drawing.DrawText(Player.HPBarPosition.X +30, Player.HPBarPosition.Y - 30, Color.LawnGreen, "Trinket Up!");
+          }
+          else
+          {
+            Drawing.DrawText(Player.HPBarPosition.X + 30, Player.HPBarPosition.Y - 30, Color.Red, "Trinket Down!");
           }
         }
       }
