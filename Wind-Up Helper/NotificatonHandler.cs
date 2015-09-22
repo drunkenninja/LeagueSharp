@@ -15,7 +15,7 @@ namespace Wind_Up_Helper
       {
         _modeNotificationHandler = new Notification(text)
         {
-          TextColor = new ColorBGRA(124, 252, 0, 255)
+          TextColor = new ColorBGRA(124, 252, 0, 400)
         };
         Notifications.AddNotification("By DanZ and Drunkenninja");
         Notifications.AddNotification(_modeNotificationHandler);
