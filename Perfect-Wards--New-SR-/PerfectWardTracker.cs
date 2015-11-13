@@ -18,6 +18,8 @@ namespace PerfectWard
         {
             new KeyValuePair<int, String>(3340, "Warding Totem Trinket"),
             new KeyValuePair<int, String>(2301, "Eye of the Watchers"),
+            new KeyValuePair<int, String>(2302, "Eye of the Oasis"),
+            new KeyValuePair<int, String>(2303, "Eye of the Equinox"),
             new KeyValuePair<int, String>(3205, "Quill Coat"),
             new KeyValuePair<int, String>(3207, "Spirit Of The Ancient Golem"),
             new KeyValuePair<int, String>(3154, "Wriggle's Lantern"),
