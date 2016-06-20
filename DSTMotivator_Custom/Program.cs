@@ -74,8 +74,7 @@ namespace DSTMotivator
             {
                 "",
                 "That was ",
-				"Really ",
-                "WOW "
+		"Really ",
             };
 
             Endings = new List<string>
