@@ -61,11 +61,10 @@ namespace DSTMotivator
         {
             Messages = new List<string>
             {
-                "gj", "good job", "very gj", "very good job",
-                "wp", "well played",
+                "gj", "wp", 
                 "nicely played",
                 "amazing",
-                "nice", "nice 1", "nice one",
+                "nice", 
                 "well done", "great play",
                 "awesome",                
             };
@@ -73,26 +72,20 @@ namespace DSTMotivator
             Starts = new List<string>
             {
                 "",
-                "That was ",
-		"Really ",
+                "Really ",
             };
 
             Endings = new List<string>
             {
                 "",
-                " m8", " mate",
-                " team",  " guys", " friends",
-                " buddy"
+                " m8", 
+                " team", " guys",
             };
 
             Greetings = new List<string>
             {
-                "gl", "good luck",
-                "hf", "have fun",
-                "gl hf", "gl and hf", "gl & hf",
-                "Good Luck, Have Fun",
-                "Let's all have a nice game!",
-                "Good Luck & Have Fun"
+                "gl", "hf", "gl hf", "gl and hf", "gl & hf",
+                "Let's have fun game!"
             };
         }
 
