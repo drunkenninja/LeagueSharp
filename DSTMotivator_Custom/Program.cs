@@ -63,6 +63,9 @@ namespace DSTMotivator
             {
                 "gj", "wp", 
                 "nicely played",
+                "why I get BOTS every game",
+                "I hate these AUTO-BOTS every game",
+                "Feed the Poro's!!! USE THE SNACKS!!!",
                 "amazing",
                 "nice", 
                 "well done", "great play",
@@ -71,14 +74,12 @@ namespace DSTMotivator
 
             Starts = new List<string>
             {
-                "",
-                "Really ",
+                "","","",
             };
 
             Endings = new List<string>
             {
-                "",
-                " m8", 
+                "","",
                 " team", " guys",
             };
 
