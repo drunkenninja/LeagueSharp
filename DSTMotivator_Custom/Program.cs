@@ -66,15 +66,12 @@ namespace DSTMotivator
                 "why I get BOTS every game",
                 "I hate these AUTO-BOTS every game",
                 "Feed the Poro's!!! USE THE SNACKS!!!",
-                "amazing",
-                "nice", 
-                "well done", "great play",
-                "awesome",                
+                "nice", "well done", "great play",                
             };
 
             Starts = new List<string>
             {
-                "","","",
+                "",
             };
 
             Endings = new List<string>
