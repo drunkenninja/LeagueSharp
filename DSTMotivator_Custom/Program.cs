@@ -62,16 +62,13 @@ namespace DSTMotivator
             Messages = new List<string>
             {
                 "gj", "wp", 
-                "nicely played",
-                "why I get BOTS every game",
-                "I hate these AUTO-BOTS every game",
-                "Feed the Poro's!!! USE THE SNACKS!!!",
+                "nicely played","hate bots",
                 "nice", "well done", "great play",                
             };
 
             Starts = new List<string>
             {
-                "",
+                "","","Really "
             };
 
             Endings = new List<string>
