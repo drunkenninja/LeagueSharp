@@ -1,0 +1,16 @@
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\DSTMotivator.exe.config
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\DSTMotivator.exe
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\DSTMotivator.pdb
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\LeagueSharp.Common.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\LeagueSharp.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\SharpDX.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\LeagueSharp.Data.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\clipper_library.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\Newtonsoft.Json.dll
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\LeagueSharp.Common.pdb
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\LeagueSharp.Data.pdb
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\obj\x86\Debug\DSTMotivator.csprojResolveAssemblyReference.cache
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\obj\x86\Debug\DSTMotivator.exe
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\obj\x86\Debug\DSTMotivator.pdb
+C:\Users\drunk\Documents\GitHub\LeagueSharp\DSTMotivator_Custom\bin\Debug\clipper_library.pdb
