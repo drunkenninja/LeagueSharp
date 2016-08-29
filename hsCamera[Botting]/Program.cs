@@ -32,10 +32,15 @@ namespace hsCamera
                 _config.AddItem(new MenuItem("show.enemy.3", "Show Enemy 3 Location").SetValue(new KeyBind(99, KeyBindType.Press)));
                 _config.AddItem(new MenuItem("show.enemy.4", "Show Enemy 4 Location").SetValue(new KeyBind(100, KeyBindType.Press)));
                 _config.AddItem(new MenuItem("show.enemy.5", "Show Enemy 5 Location").SetValue(new KeyBind(101, KeyBindType.Press)));
+<<<<<<< HEAD:hsCamera[Botting]/Program.cs
                 */
                 _config.AddItem(new MenuItem("semi.dynamic", "Semi-Dynamic Camera?").SetValue(false));
                 _config.AddItem(new MenuItem("follow.dynamic", "Follow-Champion Camera?").SetValue(true));
                 _config.AddItem(new MenuItem("credits", ".:Botting Version of hsCamera:.")).SetFontStyle(System.Drawing.FontStyle.Bold, SharpDX.Color.DeepPink);
+=======
+                _config.AddItem(new MenuItem("semi.dynamic", "Semi-Dynamic Camera?").SetValue(true));
+                _config.AddItem(new MenuItem("follow.dynamic", "Follow-Champion Camera?").SetValue(false));
+>>>>>>> origin/master:hsCamera/Program.cs
                 _config.AddToMainMenu();
             }
             Game.OnUpdate += HsCameraOnUpdate;
