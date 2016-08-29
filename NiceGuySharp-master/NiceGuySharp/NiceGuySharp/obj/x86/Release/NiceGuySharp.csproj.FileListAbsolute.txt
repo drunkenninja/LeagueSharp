@@ -1,0 +1,15 @@
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\NiceGuySharp.exe.config
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\NiceGuySharp.exe
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\NiceGuySharp.pdb
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\LeagueSharp.Common.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\LeagueSharp.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\SharpDX.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\LeagueSharp.Data.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\clipper_library.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\Newtonsoft.Json.dll
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\LeagueSharp.Common.pdb
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\bin\Release\LeagueSharp.Data.pdb
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\obj\x86\Release\NiceGuySharp.csprojResolveAssemblyReference.cache
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\obj\x86\Release\NiceGuySharp.exe
+C:\Users\Art3mis\Documents\Visual Studio 2012\Projects\NiceGuySharp\NiceGuySharp\obj\x86\Release\NiceGuySharp.pdb
