@@ -26,7 +26,7 @@ namespace hsCamera
                 _config.AddItem(new MenuItem("show.enemy.4", "Show Enemy 4 Location").SetValue(new KeyBind(100, KeyBindType.Press)));
                 _config.AddItem(new MenuItem("show.enemy.5", "Show Enemy 5 Location").SetValue(new KeyBind(101, KeyBindType.Press)));
                 _config.AddItem(new MenuItem("semi.dynamic", "Semi-Dynamic Camera?").SetValue(new KeyBind(32, KeyBindType.Press))); //SPACEBAR
-                _config.AddItem(new MenuItem("follow.dynamic", "Follow-Champion Camera?").SetValue(false));
+                _config.AddItem(new MenuItem("follow.dynamic", "Follow-Champion Camera?").SetValue(true));
                 _config.AddToMainMenu();
             }
             Game.OnUpdate += HsCameraOnUpdate;
